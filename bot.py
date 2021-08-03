@@ -158,5 +158,4 @@ async def place_error(ctx, error):
         await ctx.send("Value must be an integer")
 
 
-# client.run("ODcxOTgwMzEzNTkxNTU0MDY5.YQjM8w.y5ZkzDbSxeURKb18HmFG2CEhoo4")
 client.run(os.environ['TOKEN'])

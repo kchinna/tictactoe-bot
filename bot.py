@@ -67,6 +67,10 @@ async def tictactoe(ctx, p1:discord.Member, p2:discord.Member):
     else:
         await ctx.send("Error: Game in Progress\nEnd it with !end")
 
+@client.command()
+async def count(ctx):
+    global count
+    await ctx.send(count)
 
 @client.command()
 async def place(ctx, pos:int):

@@ -70,7 +70,8 @@ async def tictactoe(ctx, p1:discord.Member, p2:discord.Member):
 @client.command()
 async def count(ctx):
     global count
-    await ctx.send(count)
+    message = "count =" + count
+    await ctx.send(message)
 
 @client.command()
 async def place(ctx, pos:int):

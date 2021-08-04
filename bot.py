@@ -103,8 +103,10 @@ async def place(ctx, pos:int):
 
                 if gameOn is False:
                     await ctx.send(mark + " wins!")
+                    count = 0
                 elif count >= 9:
                     gameOn = False
+                    count = 0
                     await ctx.send("tie!")
 
                 # change turns
@@ -129,6 +131,8 @@ async def place(ctx, pos:int):
 async def end(ctx):
     global gameOn
     gameOn = False
+    global count
+    count = 0
     await ctx.send("You have ended the game :(")
 
 

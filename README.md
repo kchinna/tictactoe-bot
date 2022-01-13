@@ -1,7 +1,5 @@
 # tictactoe-bot
 
-Summary:
-
 This bot allows user to enjoy the classic game of tic-tac-toe in a text based format.
 Graphical component fulfilled by use of emojis to make game visually appealing.
 The bot maps the individual boxes in the tictactoe grid to a unique number that the user can use to determine where to place their marker.
@@ -14,3 +12,10 @@ Use this <a href="https://discord.com/api/oauth2/authorize?client_id=87198031359
 | ```!tictactoe @player1 @player2```  | !tictactoe @John Doe @Jane Doe  |  Starts tictactoe game |
 | ```!place <integer>```  | !place 9  |  Places marker at position corresponding with number |
 | ```!end```  | !end  |  Ends the game immediately |
+
+Here are some images of the bot in action:
+
+.
+<img src="./Images/win.jpg" style="width: 300px;"/>
+<img src="./Images/place.jpg" style="width: 300px"/>
+.
